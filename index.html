@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 | Lost in Space | Animated Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Exo+2:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Particle Canvas -->
+    <canvas id="particle-canvas"></canvas>
+    
+    <!-- Floating Objects -->
+    <div class="floating-obj obj-1"></div>
+    <div class="floating-obj obj-2"></div>
+    <div class="floating-obj obj-3"></div>
+    
+    <div class="container">
+        <header class="header">
+            <h1 class="logo">Nebula<span>404</span></h1>
+            <p class="tagline">You've entered a digital void. Let's navigate you back to reality.</p>
+        </header>
+        
+        <main class="main-content">
+            <div class="error-animation" id="errorAnimation">
+                <div class="hover-particles" id="hoverParticles"></div>
+                <div class="error-circle"></div>
+                <div class="error-digits">404</div>
+                <div class="error-digit-1">4</div>
+                <div class="error-digit-2">0</div>
+                <div class="error-digit-3">4</div>
+                <div class="error-digit-4">?</div>
+            </div>
+            
+            <div class="message-box">
+                <h2 class="title">Page <span>Not Found</span></h2>
+                <p class="message">
+                    The cosmic page you're searching for has drifted into the digital abyss. 
+                    It might have been moved, deleted, or never existed in this dimension. 
+                    Don't worry, we can help you find your way back.
+                </p>
+                
+                <div class="search-container">
+                    <div class="search-box">
+                        <input type="text" class="search-input" placeholder="Search across the universe...">
+                        <button class="search-btn" id="searchBtn">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="actions">
+                    <a href="#" class="btn btn-primary" id="homeBtn">
+                        <i class="fas fa-home"></i> Beam Me Home
+                    </a>
+                    <a href="#" class="btn btn-secondary" id="backBtn">
+                        <i class="fas fa-arrow-left"></i> Go Back in Time
+                    </a>
+                    <a href="#" class="btn btn-secondary" id="contactBtn">
+                        <i class="fas fa-comment-alt"></i> Contact Mission Control
+                    </a>
+                </div>
+            </div>
+        </main>
+        
+        <footer class="footer">
+            <p>&copy; 2023 Nebula404. All rights reserved. | This is a simulated 404 page for demonstration.</p>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Support Center</a>
+                <a href="#">Report Issue</a>
+            </div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
