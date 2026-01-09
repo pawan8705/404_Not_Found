@@ -1,4 +1,4 @@
-### 404 Not Found - Animated Interactive Experience
+## 404 Not Found - Animated Interactive Experience
 
 ## 🚀 Project Overview
 
@@ -56,7 +56,7 @@ A highly interactive and visually stunning 404 error page that transforms user f
 3. Cross-platform Consistency: Seamless experience across all devices
 4. Performance Excellence: Lightweight implementation with maximum visual impact
 
-#### 🔧 Development Principles
+### 🔧 Development Principles
 
 1. Progressive Enhancement: Core functionality works without JavaScript
 2. Accessibility First: Keyboard navigation and screen reader support
